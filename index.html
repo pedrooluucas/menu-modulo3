@@ -19,10 +19,76 @@
             <h1>Menu - Faça A Sua Escolha </h1>
         </header>
         <div class="container-principal">
-
+            <h1>Pratos Principais</h1>
+            <p>Todos os pratos acompanham arroz, feijão e a sobremesa do dia</p>
+            <div class="pratos-principais">
+                <div class="card-bife">
+                    <img src="/assets/bife.jpg" alt="Bife com Batata">
+                    <h1>Bife com Batata</h1>
+                    <p>R$ 30,00</p>
+                    <div class="quantity buttons_added">
+	                    <input type="button" value="-" class="minus">
+                        <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
+                </div>
+                <div class="card-coxa">
+                    <img src="/assets/coxa.jpg" alt="Coxa de Frango Crocante">
+                    <h1>Coxa de Frango Crocante</h1>
+                    <p>R$ 25,00</p>
+                    <div class="quantity buttons_added">
+	                    <input type="button" value="-" class="minus">
+                        <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
+                </div>
+                <div class="card-panela">
+                    <img src="/assets/panela.jpg" alt="Carne de Panela">
+                    <h1>Carne de Panela</h1>
+                    <p>R$ 22,00</p>
+                    <div class="quantity buttons_added">
+	                    <input type="button" value="-" class="minus">
+                        <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="container-acompanhamentos">
-
+            <h1>Acompanhamentos</h1>
+            <p>Todos os acompanhamentos servem porções para uma pessoa</p>
+            <div class="pratos-acompanhamentos">
+                <div class="card-farofa">
+                    <img src="/assets/farofa.jpg" alt="Farofa">
+                    <h1>Farofa</h1>
+                    <p>R$ 10,00</p>
+                    <div class="quantity buttons_added">
+	                    <input type="button" value="-" class="minus">
+                        <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
+                </div>
+                <div class="card-salada">
+                    <img src="/assets/salad.jpg" alt="Salada">
+                    <h1>Salada</h1>
+                    <p>R$ 8,00</p>
+                    <div class="quantity buttons_added">
+	                    <input type="button" value="-" class="minus">
+                        <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
+                </div>
+                <div class="card-torresmo">
+                    <img src="/assets/torresmo.jpg" alt="Torresmo">
+                    <h1>Torresmo</h1>
+                    <p>R$ 15,00</p>
+                    <div class="quantity buttons_added">
+	                    <input type="button" value="-" class="minus">
+                        <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
+                </div>
+            </div>
         </div>
     </container>
 
@@ -31,6 +97,6 @@
     <script>
         $("#phone").mask("(99) 9999-99999");
     </script>
+    <script src="js/index.js"></script>
 </body>
-
 </html>
